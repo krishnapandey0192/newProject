@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+.bg-custom-gradient {
+  background: linear-gradient(
+    33deg,
+    rgba(255, 255, 255, 1) 48%,
+    rgba(255, 234, 205, 0.9473039215686274) 100%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
